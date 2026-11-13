@@ -321,7 +321,8 @@ screen.onkeypress(go_down, "s")
 screen.onkeypress(go_left, "a")
 screen.onkeypress(go_right, "d")
 draw_hearts()
-build_map(map1)
+selected_map = choice([map1, map2, map3])
+build_map(selected_map)
 
 
           
